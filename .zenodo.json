@@ -1,0 +1,159 @@
+{
+  "title": "Boundary limits of the matrix geometric mean and the failure of unrestricted GLT closure",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p><strong>Unrefereed research candidate.</strong> In one sentence: the matrix geometric mean can jump at singular matrices, every possible jump is described by one rank condition, and the same mechanism refutes a published claim that the symbol of the geometric mean of two GLT matrix-sequences is always the geometric mean of their symbols.</p><p>The geometric mean A#B of two positive definite matrices is the matrix analogue of &radic;(ab), used to average covariance matrices and structured matrices and to define the Matsumoto fidelity of quantum states. It need not be continuous at singular pairs. Theorem 1 shows that X is a limit of A<sub>j</sub>#B<sub>j</sub> with positive definite A<sub>j</sub> &rarr; A, B<sub>j</sub> &rarr; B exactly when X &#8829; 0, the block matrix [[A, X], [X, B]] is positive semidefinite and its rank is at most the dimension N (a dilation description with an auxiliary contraction already follows from recent work of Jones; the explicit elimination is the contribution). At equal inputs this gives the full set of limits and the exact interval of limiting Matsumoto fidelities.</p><p>For generalized locally Toeplitz (GLT) matrix-sequences, uniformly bounded positive definite inputs with identical scalar symbols can have geometric means with the wrong symbol (4/5 instead of 1 on half the interval) or no eigenvalue distribution at all. This refutes Theorem 4 and Conjecture 1 of the arXiv version of Ilyas, Khan, Loi and Serra-Capizzano and, according to an AI-assisted reading of the published text, Theorem 3 and Conjecture 1 of their article in Linear Algebra Appl. (2025); the failing step of the proof is located. Positive results: closure for every Kubo-Ando mean when the sum of the symbols is positive definite almost everywhere; a one-sided theorem that the regularised symbol is always an upper envelope; and, for bounded Riemann-integrable scalar symbols of the space variable only, a sharp dichotomy (the formula holds for every realisation if and only if the symbols have no common zero set of positive measure or essentially disjoint supports). The classical two-dimensional discontinuity, Ando's maximal characterisation and the envelope X &#8828; A#B are earlier work and are credited.</p><p>The archive contains the manuscript (PDF and Markdown source), two figures with the script that draws them, an exact verifier (verify_exact.py, Python standard library only, 1,030 rational and Gaussian-rational checks of closed forms and finite assemblies, with a mutation self-test) and its retained output, the bibliography with its Crossref/arXiv records, the dated novelty ledger, a revision note, CI and SHA-256 sums. Assurance: written proofs; the verifier checks finite exact identities, not the theorems' limits or quantifiers; internal AI-assisted review only (not human peer review, independent reproduction or formal verification). Creator: Anonymous. Text and figures CC0-1.0; code MIT.</p>",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-zero",
+  "version": "0.1.0-candidate",
+  "publication_date": "2026-11-03",
+  "keywords": [
+    "matrix geometric mean",
+    "Kubo-Ando means",
+    "positive semidefinite matrices",
+    "generalized locally Toeplitz sequences",
+    "spectral symbol",
+    "eigenvalue distribution",
+    "Matsumoto fidelity",
+    "counterexample"
+  ],
+  "notes": "Code (the .py files and the CI workflow) is MIT; prose, manuscript and figures are CC0-1.0. Third-party bibliographic records in refs/ are factual metadata from Crossref and arXiv.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ipitchford/matrix-geometric-mean-glt-closure/tree/v0.1.0-candidate",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://evidencepress.org/releases/matrix-geometric-mean-glt-closure/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1016/0034-4877(75)90061-0",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/BF01371042",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/0024-3795(79)90179-4",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1080/00029890.2001.11919815",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1515/9781400827787",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1137/S0895479803436937",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1109/TBME.2011.2172210",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/s10543-013-0450-4",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/978-981-13-2487-1_10",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/978-3-319-53679-8",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/978-3-030-02233-4",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1553/etna_vol53s28",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1553/etna_vol53s113",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.3390/math13030393",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.laa.2025.08.004",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1137/0128007",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/0034-4877(76)90060-4",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/S0024-3795(00)00311-6",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.laa.2016.10.021",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1137/080731347",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "arXiv:1006.0302",
+      "relation": "references",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "arXiv:2006.06918",
+      "relation": "references",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "arXiv:2505.03256",
+      "relation": "references",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "arXiv:2511.06312",
+      "relation": "references",
+      "scheme": "arxiv"
+    }
+  ],
+  "doi": "10.5281/zenodo.23912963"
+}

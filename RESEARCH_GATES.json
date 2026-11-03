@@ -1,0 +1,236 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 3 November 2026 for release 0.1.0-candidate from the dated source and novelty ledger (source_novelty_ledger.md, novelty_report.md; searches of 2 November 2026, revised 3 November 2026) and the reference retrieval. It documents the scrutiny performed, not historical priority. No new search was run at release preparation.",
+ "contributionMap": [
+  {
+   "claim": "Complete graph closure: X is a limit of A_j#B_j with A_j,B_j positive definite, A_j -> A, B_j -> B iff X >= 0, [[A,X],[X,B]] >= 0 and its rank is at most N (Theorem 1).",
+   "unit": "statement",
+   "paperLocation": "Theorem 1, Sections 2-3; Appendix B",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines, arXiv full texts, publisher pages, matrix-analysis texts and slides, Jones (2026) section 4.12 (source_novelty_ledger.md Sections 2 and 4)",
+     "query": "\"2505.03256\" counterexample/erratum; \"geometric mean\" GLT counterexample; graph closure / cluster set / rank defect of the matrix geometric mean at singular pairs; Riccati boundary limits; Matsumoto fidelity discontinuity"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "api.crossref.org and export.arxiv.org",
+     "query": "registry records for every bibliography entry with a DOI or arXiv identifier (refs/crossref_records.jsonl)"
+    }
+   ],
+   "closestPriorWork": "Jones (2026) Lemma 4.12.3 with compactness gives a dilation description with an auxiliary contraction (credited); Ando 1979 and Pusz-Woronowicz 1975 maximal characterisation; Jones Lemma 4.12.1(b) envelope",
+   "verdict": "partially-known-cited"
+  },
+  {
+   "claim": "Equal inputs: full set of limits and exact interval of limiting Matsumoto fidelities (Corollaries 2-3).",
+   "unit": "statement",
+   "paperLocation": "Section 4",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines, arXiv full texts, publisher pages, matrix-analysis texts and slides, Jones (2026) section 4.12 (source_novelty_ledger.md Sections 2 and 4)",
+     "query": "\"2505.03256\" counterexample/erratum; \"geometric mean\" GLT counterexample; graph closure / cluster set / rank defect of the matrix geometric mean at singular pairs; Riccati boundary limits; Matsumoto fidelity discontinuity"
+    }
+   ],
+   "closestPriorWork": "Jones (2026) Theorem 4.12.4(b) and Corollary 4.12.5 give the lower endpoint and the case q >= r",
+   "verdict": "partially-known-cited"
+  },
+  {
+   "claim": "Bounded HPD scalar GLT inputs with equal symbols whose geometric means have symbol 4/5 times the predicted one or no distribution; refutes Theorem 4 and Conjecture 1 of arXiv:2505.03256 and, per an AI-assisted reading, Theorem 3 and Conjecture 1 of the published article (Section 6).",
+   "unit": "statement",
+   "paperLocation": "Sections 5-6, Remark 6.2, Figure 1",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines, arXiv full texts, publisher pages, matrix-analysis texts and slides, Jones (2026) section 4.12 (source_novelty_ledger.md Sections 2 and 4)",
+     "query": "\"2505.03256\" counterexample/erratum; \"geometric mean\" GLT counterexample; graph closure / cluster set / rank defect of the matrix geometric mean at singular pairs; Riccati boundary limits; Matsumoto fidelity discontinuity"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "published Linear Algebra Appl. text (locations), Khan thesis arXiv:2511.06312, ETNA 53 papers, Ahmad et al. 2025 (source_novelty_ledger.md Section 2; novelty_report.md Section 4)",
+     "query": "hypotheses of the published Theorem 3 and Conjecture 1; one-sided spectral comparison; GLT theorem numbers"
+    }
+   ],
+   "closestPriorWork": "Ilyas, Khan, Loi and Serra-Capizzano 2025 (target); Ahmad, Khan and Serra-Capizzano 2025 (restricted, true); Pith AI-generated review (15 Aug 2026) questioning the a.c.s. step without a counterexample; classical 2x2 discontinuity (Bhatia, via Poulson slides)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Any sequence of contractions can be hidden behind two fixed input symbols (Theorem 4).",
+   "unit": "statement",
+   "paperLocation": "Section 7",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines, arXiv full texts, publisher pages, matrix-analysis texts and slides, Jones (2026) section 4.12 (source_novelty_ledger.md Sections 2 and 4)",
+     "query": "\"2505.03256\" counterexample/erratum; \"geometric mean\" GLT counterexample; graph closure / cluster set / rank defect of the matrix geometric mean at singular pairs; Riccati boundary limits; Matsumoto fidelity discontinuity"
+    }
+   ],
+   "closestPriorWork": "None located",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Closure for every Kubo-Ando mean when kappa + xi is positive definite a.e. (Theorem 5, Corollary 6).",
+   "unit": "statement",
+   "paperLocation": "Section 8",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines, arXiv full texts, publisher pages, matrix-analysis texts and slides, Jones (2026) section 4.12 (source_novelty_ledger.md Sections 2 and 4)",
+     "query": "\"2505.03256\" counterexample/erratum; \"geometric mean\" GLT counterexample; graph closure / cluster set / rank defect of the matrix geometric mean at singular pairs; Riccati boundary limits; Matsumoto fidelity discontinuity"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "published Linear Algebra Appl. text (locations), Khan thesis arXiv:2511.06312, ETNA 53 papers, Ahmad et al. 2025 (source_novelty_ledger.md Section 2; novelty_report.md Section 4)",
+     "query": "hypotheses of the published Theorem 3 and Conjecture 1; one-sided spectral comparison; GLT theorem numbers"
+    }
+   ],
+   "closestPriorWork": "Standard sum-normalisation identity and GLT transfer (Kubo-Ando 1980; ETNA 53 theorems)",
+   "verdict": "known-cited"
+  },
+  {
+   "claim": "The regularised symbol is a universal upper envelope: the spectral law of A_n#B_n is stochastically dominated by that of kappa#xi (Theorem 7, Corollary 8).",
+   "unit": "statement",
+   "paperLocation": "Section 9",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines, arXiv full texts, publisher pages, matrix-analysis texts and slides, Jones (2026) section 4.12 (source_novelty_ledger.md Sections 2 and 4)",
+     "query": "\"2505.03256\" counterexample/erratum; \"geometric mean\" GLT counterexample; graph closure / cluster set / rank defect of the matrix geometric mean at singular pairs; Riccati boundary limits; Matsumoto fidelity discontinuity"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "published Linear Algebra Appl. text (locations), Khan thesis arXiv:2511.06312, ETNA 53 papers, Ahmad et al. 2025 (source_novelty_ledger.md Section 2; novelty_report.md Section 4)",
+     "query": "hypotheses of the published Theorem 3 and Conjecture 1; one-sided spectral comparison; GLT theorem numbers"
+    }
+   ],
+   "closestPriorWork": "Matrix-level order bound (Ando; Jones Lemma 4.12.1(b)); no one-sided spectral comparison located in Ilyas et al.",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Dichotomy for bounded Riemann-integrable scalar symbols of x: closure for every realisation iff |{kappa+xi=0}|=0 or |{kappa xi>0}|=0 (Theorem 9, Corollary 10).",
+   "unit": "statement",
+   "paperLocation": "Section 9",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines, arXiv full texts, publisher pages, matrix-analysis texts and slides, Jones (2026) section 4.12 (source_novelty_ledger.md Sections 2 and 4)",
+     "query": "\"2505.03256\" counterexample/erratum; \"geometric mean\" GLT counterexample; graph closure / cluster set / rank defect of the matrix geometric mean at singular pairs; Riccati boundary limits; Matsumoto fidelity discontinuity"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "published Linear Algebra Appl. text (locations), Khan thesis arXiv:2511.06312, ETNA 53 papers, Ahmad et al. 2025 (source_novelty_ledger.md Section 2; novelty_report.md Section 4)",
+     "query": "hypotheses of the published Theorem 3 and Conjecture 1; one-sided spectral comparison; GLT theorem numbers"
+    }
+   ],
+   "closestPriorWork": "None located",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Method: simultaneous congruence reduction to range/kernel coordinates, then a range-kernel coupling of size O(1/N) (invisible to GLT symbols) assembled from collapsing 2x2 blocks along the diagonal.",
+   "unit": "method",
+   "paperLocation": "Sections 3.2-3.3, 5 and 6.2",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines, arXiv full texts, publisher pages, matrix-analysis texts and slides, Jones (2026) section 4.12 (source_novelty_ledger.md Sections 2 and 4)",
+     "query": "\"2505.03256\" counterexample/erratum; \"geometric mean\" GLT counterexample; graph closure / cluster set / rank defect of the matrix geometric mean at singular pairs; Riccati boundary limits; Matsumoto fidelity discontinuity"
+    }
+   ],
+   "closestPriorWork": "Classical 2x2 discontinuity of the geometric mean (Bhatia, via Poulson slides); Jones (2026) dilation into the common kernel; GLT invisibility of norm-small and small-rank perturbations (Garoni and Serra-Capizzano)",
+   "verdict": "partially-known-cited"
+  },
+  {
+   "claim": "Sharp spectral envelope of means near projections of any rank density (Theorem A.1).",
+   "unit": "statement",
+   "paperLocation": "Appendix A",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines, arXiv full texts, publisher pages, matrix-analysis texts and slides, Jones (2026) section 4.12 (source_novelty_ledger.md Sections 2 and 4)",
+     "query": "\"2505.03256\" counterexample/erratum; \"geometric mean\" GLT counterexample; graph closure / cluster set / rank defect of the matrix geometric mean at singular pairs; Riccati boundary limits; Matsumoto fidelity discontinuity"
+    }
+   ],
+   "closestPriorWork": "Jones Lemma 4.12.1(b) (envelope at fixed dimension)",
+   "verdict": "new-in-bounded-search"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "Ilyas, Khan, Loi and Serra-Capizzano, arXiv:2505.03256v1 (2025)",
+   "usedFor": "Exact statements refuted (Theorem 4 p. 11, Conjecture 1 p. 21) and the failing proof step (p. 12)",
+   "readWhat": "Full text",
+   "date": "2026-11-02",
+   "evidenceLocator": "source_novelty_ledger.md Section 2; paper Section 6.3"
+  },
+  {
+   "citation": "Jones, Continuity, Testing Regions and Fragility of Quantum Channel Divergences, self-hosted preprint, October 2026",
+   "usedFor": "Closest prior work: envelope, dilation attainability, fidelity endpoint",
+   "readWhat": "Section 4.12, printed pp. 105-110",
+   "date": "2026-11-02",
+   "evidenceLocator": "source_novelty_ledger.md Section 3; paper Section 1.5 and Appendix B"
+  },
+  {
+   "citation": "Barbarino, Garoni and Serra-Capizzano, Electronic Transactions on Numerical Analysis 53 (2020) 28-112 and 113-216",
+   "usedFor": "GLT facts used in the proofs, with theorem numbers",
+   "readWhat": "Theorem statements cited in Section 6.1",
+   "date": "2026-11-03",
+   "evidenceLocator": "paper Section 6.1"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "Priority holds only within a bounded search.",
+   "closingQuestion": "Has the rank criterion, the GLT counterexample or the dichotomy been published elsewhere?",
+   "triedOrSearched": "Dated searches of 2 and 3 November 2026 (source_novelty_ledger.md, novelty_report.md); no MathSciNet/zbMATH full-text search; no author enquiry.",
+   "estimatedCost": "days",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "Exhaustive search and author correspondence are out of scope; disclosed in Section 11.",
+   "whyNotClosedNow": "Requires specialist databases and contact with the authors of the target article."
+  },
+  {
+   "limitation": "The published Theorem 3 and Conjecture 1 were checked through an AI-assisted reading and short verbatim passages, not a full transcription; the 2017 monograph (Conjecture 10.1) was not accessible.",
+   "closingQuestion": "Do the published hypotheses admit the counterexamples exactly as the arXiv ones do?",
+   "triedOrSearched": "Locations and short passages verified; separate AI-assisted reading of the published full text; arXiv wording quoted in the paper.",
+   "estimatedCost": "1 hour with library access",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "Full published text and monograph not available to this run.",
+   "whyNotClosedNow": "Needs library access; the refutation of the arXiv statements does not depend on it."
+  },
+  {
+   "limitation": "Necessity of the dichotomy for symbols depending on theta and for block symbols.",
+   "closingQuestion": "Does Corollary 10 extend to (x, theta) and block symbols?",
+   "triedOrSearched": "Stated as open problem 3 in Section 10.",
+   "estimatedCost": "weeks",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "New research.",
+   "whyNotClosedNow": "Beyond the scope of this release."
+  },
+  {
+   "limitation": "The verifier checks finite exact identities and assemblies, not limits or quantifiers.",
+   "closingQuestion": "Do the checks fail when a formula is wrong, including under python -O?",
+   "triedOrSearched": "Explicit check() that raises; --self-test-mutation corrupts formula (5.2) and the failure is detected under -O and without.",
+   "estimatedCost": "1 hour",
+   "decision": "CLOSED",
+   "cheap": true
+  }
+ ],
+ "extensionScout": {
+  "by": "Internal AI-assisted reviewers and the lead, 3 November 2026",
+  "date": "2026-11-03",
+  "proposals": [
+   "Say exactly when the symbol formula is safe",
+   "Give a one-sided spectral statement valid for all inputs",
+   "Show that the failure is not an artefact of non-structured perturbations",
+   "State the overlap with Jones honestly"
+  ],
+  "actions": [
+   "Theorem 9, Corollary 10 and the \"When is the symbol formula safe?\" box",
+   "Theorem 7 and Corollary 8",
+   "Remark 6.2 (fully structured block counterexample) and open problem 1",
+   "Sections 1.5 and 4, Appendix B"
+  ]
+ }
+}

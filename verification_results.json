@@ -1,0 +1,373 @@
+{
+  "status": "PASS",
+  "failure": null,
+  "scope": "Exact rational/Gaussian-rational checks of closed forms and finite assemblies of the constructions; quantified statements are proved in the paper, not computed.",
+  "python": "3.11.14",
+  "optimisation_flag": 0,
+  "checks_by_group": {
+    "core 2x2 formula (5.2)": 82,
+    "Theorem 1 sufficiency on complex non-commuting data": 196,
+    "necessity: interior points and the role of each condition": 6,
+    "Corollary 2 and Corollary 3: equal inputs": 60,
+    "Theorem 4 operator formula (7.4), complex unitary conjugation": 7,
+    "Section 6.2 full-size scalar GLT assemblies": 52,
+    "Theorem 9 construction, finite instances": 609,
+    "Remark 6.2: structured block (r=2) counterexample": 18
+  },
+  "total_checks": 1030,
+  "records": {
+    "core_specimen_e_1_3_t_3_2": [
+      [
+        "4/5",
+        "1/5"
+      ],
+      [
+        "1/5",
+        "17/90"
+      ]
+    ],
+    "theorem1_cases": [
+      {
+        "a": 0,
+        "b": 0,
+        "t": 2,
+        "k": 2,
+        "N": 4,
+        "rank_M": 4,
+        "deltas": [
+          "1/2",
+          "1/4",
+          "1/8",
+          "1/16",
+          "1/32",
+          "1/64",
+          "1/128"
+        ],
+        "max_squared_frobenius_error": [
+          6.46958937027945,
+          0.6788502112789493,
+          0.13517368489830334,
+          0.03280974086014048,
+          0.008095845379012926,
+          0.002011599737587225,
+          0.0005014129070066643
+        ]
+      },
+      {
+        "a": 1,
+        "b": 1,
+        "t": 2,
+        "k": 1,
+        "N": 5,
+        "rank_M": 5,
+        "deltas": [
+          "1/2",
+          "1/4",
+          "1/8",
+          "1/16",
+          "1/32",
+          "1/64",
+          "1/128"
+        ],
+        "max_squared_frobenius_error": [
+          10.047958865189658,
+          1.2801471710060819,
+          0.24786980739204725,
+          0.059343473800406596,
+          0.015027878112646593,
+          0.0037832326541379344,
+          0.0009492306624328618
+        ]
+      },
+      {
+        "a": 1,
+        "b": 0,
+        "t": 2,
+        "k": 3,
+        "N": 6,
+        "rank_M": 5,
+        "deltas": [
+          "1/2",
+          "1/4",
+          "1/8",
+          "1/16",
+          "1/32",
+          "1/64",
+          "1/128"
+        ],
+        "max_squared_frobenius_error": [
+          53.24423532483564,
+          6.62837712280917,
+          1.134872910515185,
+          0.21033983604525003,
+          0.037955064410821276,
+          0.006628672933242114,
+          0.0012062916561083274
+        ]
+      },
+      {
+        "a": 0,
+        "b": 1,
+        "t": 2,
+        "k": 2,
+        "N": 5,
+        "rank_M": 4,
+        "deltas": [
+          "1/2",
+          "1/4",
+          "1/8",
+          "1/16",
+          "1/32",
+          "1/64",
+          "1/128"
+        ],
+        "max_squared_frobenius_error": [
+          16.620476508151025,
+          3.042487279273139,
+          0.6151032846570259,
+          0.1254928845478893,
+          0.025031347745019836,
+          0.00499415002283026,
+          0.0010530776516796368
+        ]
+      },
+      {
+        "a": 0,
+        "b": 0,
+        "t": 2,
+        "k": 0,
+        "N": 2,
+        "rank_M": 2,
+        "deltas": [
+          "1/2",
+          "1/4",
+          "1/8",
+          "1/16",
+          "1/32",
+          "1/64",
+          "1/128"
+        ],
+        "max_squared_frobenius_error": [
+          1.7526431556422515,
+          0.4375,
+          0.109375,
+          0.02734375,
+          0.0068359375,
+          0.001708984375,
+          0.00042724609375
+        ]
+      },
+      {
+        "a": 1,
+        "b": 1,
+        "t": 0,
+        "k": 1,
+        "N": 3,
+        "rank_M": 2,
+        "deltas": [
+          "1/2",
+          "1/4",
+          "1/8",
+          "1/16",
+          "1/32",
+          "1/64",
+          "1/128"
+        ],
+        "max_squared_frobenius_error": [
+          0.84375,
+          0.19342041015625,
+          0.0479128360748291,
+          0.011964798904955387,
+          0.002990782264532754,
+          0.0007476825267218601,
+          0.00018692022422334142
+        ]
+      }
+    ],
+    "necessity_examples": "interior points have block rank N; X=-1 and X=I/2 excluded",
+    "corollary2_cases": [
+      {
+        "a": 0,
+        "b": 0,
+        "t": 2,
+        "k": 1,
+        "N": 3,
+        "rank_M": 3,
+        "deltas": [
+          "1/2",
+          "1/4",
+          "1/8",
+          "1/16",
+          "1/32",
+          "1/64"
+        ],
+        "max_squared_frobenius_error": [
+          2.89893869313913,
+          0.4818993547892451,
+          0.10011445163935002,
+          0.02297796782416069,
+          0.005518260657559662,
+          0.001353196158487366
+        ],
+        "trace_limit_for_rho_P_over_2": "4/5"
+      },
+      {
+        "a": 0,
+        "b": 0,
+        "t": 2,
+        "k": 1,
+        "N": 3,
+        "rank_M": 3,
+        "deltas": [
+          "1/2",
+          "1/4",
+          "1/8",
+          "1/16",
+          "1/32",
+          "1/64"
+        ],
+        "max_squared_frobenius_error": [
+          3.546875,
+          0.54595947265625,
+          0.11185860633850098,
+          0.025536210276186466,
+          0.006112346662121126,
+          0.001495905367860928
+        ],
+        "trace_limit_for_rho_P_over_2": "1/2"
+      }
+    ],
+    "theorem4_D_eigenvalues": [
+      "4/5",
+      "3/5",
+      "5/13"
+    ],
+    "glt_scalar_traces": [
+      {
+        "N": 2,
+        "normalised_trace": "5/8"
+      },
+      {
+        "N": 3,
+        "normalised_trace": "11/30"
+      },
+      {
+        "N": 4,
+        "normalised_trace": "17/32"
+      },
+      {
+        "N": 5,
+        "normalised_trace": "222/625"
+      },
+      {
+        "N": 6,
+        "normalised_trace": "37/72"
+      },
+      {
+        "N": 7,
+        "normalised_trace": "1237/3430"
+      },
+      {
+        "N": 8,
+        "normalised_trace": "65/128"
+      },
+      {
+        "N": 9,
+        "normalised_trace": "89/243"
+      },
+      {
+        "N": 10,
+        "normalised_trace": "101/200"
+      },
+      {
+        "N": 11,
+        "normalised_trace": "987/2662"
+      },
+      {
+        "N": 12,
+        "normalised_trace": "145/288"
+      },
+      {
+        "N": 13,
+        "normalised_trace": "4112/10985"
+      },
+      {
+        "N": 14,
+        "normalised_trace": "197/392"
+      }
+    ],
+    "dichotomy_instances": {
+      "limit_trace": "299/1280",
+      "symbol_prediction": "1/4",
+      "cases": [
+        {
+          "n": 16,
+          "pairs": 3,
+          "normalised_trace_of_mean": "4331/16384",
+          "riemann_sum_sqrt_kappa_xi": "9/32",
+          "float_trace": 0.26434326171875,
+          "float_riemann": 0.28125
+        },
+        {
+          "n": 32,
+          "pairs": 6,
+          "normalised_trace_of_mean": "260569/1048576",
+          "riemann_sum_sqrt_kappa_xi": "17/64",
+          "float_trace": 0.24849796295166016,
+          "float_riemann": 0.265625
+        },
+        {
+          "n": 64,
+          "pairs": 12,
+          "normalised_trace_of_mean": "2021083/8388608",
+          "riemann_sum_sqrt_kappa_xi": "33/128",
+          "float_trace": 0.24093186855316162,
+          "float_riemann": 0.2578125
+        },
+        {
+          "n": 128,
+          "pairs": 24,
+          "normalised_trace_of_mean": "79602779/335544320",
+          "riemann_sum_sqrt_kappa_xi": "65/256",
+          "float_trace": 0.23723476827144624,
+          "float_riemann": 0.25390625
+        },
+        {
+          "n": 256,
+          "pairs": 48,
+          "normalised_trace_of_mean": "126383335/536870912",
+          "riemann_sum_sqrt_kappa_xi": "129/512",
+          "float_trace": 0.23540730588138103,
+          "float_riemann": 0.251953125
+        }
+      ]
+    },
+    "block_structured": [
+      {
+        "n": 1,
+        "normalised_trace": "49/80"
+      },
+      {
+        "n": 2,
+        "normalised_trace": "89/180"
+      },
+      {
+        "n": 3,
+        "normalised_trace": "29/64"
+      },
+      {
+        "n": 4,
+        "normalised_trace": "217/500"
+      },
+      {
+        "n": 5,
+        "normalised_trace": "61/144"
+      },
+      {
+        "n": 6,
+        "normalised_trace": "409/980"
+      }
+    ]
+  },
+  "seconds": 2.27
+}

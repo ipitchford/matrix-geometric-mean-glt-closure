@@ -1,0 +1,4 @@
+# verify_exact.py needs only the Python standard library (3.11 or later).
+# make_figures.py:
+matplotlib==3.10.8
+numpy==2.4.6

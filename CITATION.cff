@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research candidate by its DOI."
+title: "Boundary limits of the matrix geometric mean and the failure of unrestricted GLT closure"
+type: software
+authors:
+  - name: Anonymous
+version: 0.1.0-candidate
+doi: 10.5281/zenodo.23912963
+date-released: 2026-11-03
+repository-code: "https://github.com/ipitchford/matrix-geometric-mean-glt-closure"
+url: "https://evidencepress.org/releases/matrix-geometric-mean-glt-closure/"
+license:
+  - CC0-1.0
+  - MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23912963
+    description: "Version DOI (0.1.0-candidate)"
+  - type: doi
+    value: 10.5281/zenodo.23912962
+    description: "Concept DOI (all versions)"
+keywords:
+  - matrix geometric mean
+  - Kubo-Ando means
+  - generalized locally Toeplitz sequences
+  - spectral symbol
+  - Matsumoto fidelity
+  - counterexample
+abstract: "The matrix geometric mean A#B is continuous on positive definite pairs but not at singular ones. This package proves that X is a limit of A_j#B_j with positive definite A_j -> A, B_j -> B exactly when X >= 0, the block matrix [[A, X], [X, B]] is positive semidefinite and its rank is at most the dimension; gives the full set of limits at equal inputs and the exact interval of limiting Matsumoto fidelities; constructs bounded positive definite GLT matrix-sequences with identical scalar symbols whose geometric means have the wrong symbol (4/5 instead of 1 on half the interval) or no eigenvalue distribution, refuting the unrestricted symbol formula and conjecture of Ilyas, Khan, Loi and Serra-Capizzano (2025); and proves closure when the sum of the symbols is positive definite (every Kubo-Ando mean), a one-sided upper-envelope theorem, and a sharp dichotomy for bounded Riemann-integrable scalar symbols of the space variable. Unrefereed candidate; internal AI-assisted review only. Text and figures CC0-1.0; code MIT."
